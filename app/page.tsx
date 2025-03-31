@@ -2,6 +2,7 @@
 import MenuData from "@/menu.json";
 import { useEffect, useState } from "react";
 import { DishTypes } from "@/types";
+
 import Loading from "./loading";
 export default function Home() {
   const [foodData, setFoodData] = useState<DishTypes[]>();

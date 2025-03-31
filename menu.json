@@ -4,6 +4,7 @@
     "category": "ცომეული",
     "name": "პურის კალათა (თეთრი ბაგეტი)",
     "ingredients": [],
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433851/%E1%83%9E%E1%83%A3%E1%83%A0%E1%83%98_cpdt3n.jpg",
     "price": 4
   },
   {
@@ -11,33 +12,38 @@
     "category": "ცომეული",
     "name": "იმერული ხაჭაპური 4 ნაჭერი",
     "ingredients": [],
-    "price": 8
+    "price": 8,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433835/%E1%83%98%E1%83%9B%E1%83%94%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%AE%E1%83%90%E1%83%AD%E1%83%90%E1%83%9E%E1%83%A3%E1%83%A0%E1%83%98_yfuysp.jpg"
   },
   {
     "id": 3,
     "category": "ცომეული",
     "name": "იმერული ხაჭაპური 6 ნაჭერი",
     "ingredients": [],
-    "price": 12
+    "price": 12,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433835/%E1%83%98%E1%83%9B%E1%83%94%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%AE%E1%83%90%E1%83%AD%E1%83%90%E1%83%9E%E1%83%A3%E1%83%A0%E1%83%98_yfuysp.jpg"
   },
   {
     "id": 4,
     "category": "ცომეული",
     "name": "მეგრული ხაჭაპური",
     "ingredients": [],
-    "price": 15
+    "price": 15,
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgemrielia.ge%2Frecipe%2F1021-yvelaze-gemrieli-megruli-xaWapuri%2F&psig=AOvVaw1Ca9Rp7oPcIr8cXu8uINTO&ust=1743520504661000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNC9zJTOtIwDFQAAAAAdAAAAABAc"
   },
   {
     "id": 5,
     "category": "ცომეული",
     "name": "აჭარული ხაჭაპური",
     "ingredients": [],
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433827/%E1%83%90%E1%83%AD%E1%83%90%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%AE%E1%83%90%E1%83%AD%E1%83%90%E1%83%9E%E1%83%A3%E1%83%A0%E1%83%98_yemjhy.jpg",
     "price": 15
   },
   {
     "id": 6,
     "category": "ცომეული",
     "name": "ლობიანი 6 ნაჭერი",
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433833/%E1%83%98%E1%83%9B%E1%83%94%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%9A%E1%83%9D%E1%83%91%E1%83%98%E1%83%90%E1%83%9C%E1%83%98_syndf9.jpg",
     "ingredients": [],
     "price": 8
   },
@@ -46,6 +52,7 @@
     "category": "ცომეული",
     "name": "აჭარული ლობიანი",
     "ingredients": [],
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433827/%E1%83%90%E1%83%AD%E1%83%90%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%9A%E1%83%9D%E1%83%91%E1%83%98%E1%83%90%E1%83%9C%E1%83%98_gkizdk.jpg",
     "price": 12
   },
   {
@@ -53,12 +60,14 @@
     "category": "ცომეული",
     "ingredients": [],
     "name": "ლობიანი ლორით",
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433833/%E1%83%98%E1%83%9B%E1%83%94%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%9A%E1%83%9D%E1%83%91%E1%83%98%E1%83%90%E1%83%9C%E1%83%98_syndf9.jpg0",
     "price": 12
   },
   {
     "id": 9,
     "category": "ცომეული",
     "name": "მჭადის ბურთულები",
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433844/%E1%83%9B%E1%83%AD%E1%83%90%E1%83%93%E1%83%98_c6bog8.jpg",
     "ingredients": [],
     "price": 4
   },
@@ -66,6 +75,7 @@
     "id": 10,
     "category": "პასტა",
     "name": "კარბონარა",
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433847/%E1%83%9E%E1%83%90%E1%83%A1%E1%83%A2%E1%83%90_%E1%83%99%E1%83%90%E1%83%A0%E1%83%91%E1%83%9D%E1%83%9C%E1%83%90%E1%83%A0%E1%83%90_zekqqc.jpg",
     "ingredients": [
       "სპაგეტი",
       "ბეკონი",
@@ -79,7 +89,8 @@
   {
     "id": 11,
     "category": "პასტა",
-    "name": "ფენტუჩინი",
+    "name": "ფეტუჩინი",
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433855/%E1%83%A4%E1%83%94%E1%83%A2%E1%83%A3%E1%83%A9%E1%83%98%E1%83%9C%E1%83%98_x00mmj.jpg",
     "ingredients": ["ქათმის ხორცი", "სოკო", "ნაღები", "პარმეზანი", "ხახვი"],
     "price": 16
   },
@@ -87,6 +98,7 @@
     "id": 12,
     "category": "პასტა",
     "name": "პენე",
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433848/%E1%83%9E%E1%83%94%E1%83%9C%E1%83%94_sp96gf.jpg",
     "ingredients": ["პენე", "არაბიატას სოუსი", "ბოსტნეული"],
     "price": 10
   },
@@ -94,12 +106,14 @@
     "id": 13,
     "category": "პასტა",
     "name": "რიზოტო",
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433851/%E1%83%A0%E1%83%98%E1%83%96%E1%83%9D%E1%83%A2%E1%83%9D_rg9tca.jpg",
     "ingredients": ["ქათამი", "სოკო", "რიზოტოს ბრინჯი", "პარმეზანი"],
     "price": 15
   },
   {
     "id": 14,
     "category": "პიცა",
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433849/%E1%83%9E%E1%83%94%E1%83%9E%E1%83%94%E1%83%A0%E1%83%9D%E1%83%9C%E1%83%98_k4wyvn.jpg",
     "name": "პეპერონი",
     "ingredients": ["პიცის სოუსი", "მოცარელა", "პეპერონი"],
     "price": 22
@@ -107,6 +121,7 @@
   {
     "id": 15,
     "category": "პიცა",
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433840/%E1%83%9B%E1%83%90%E1%83%A0%E1%83%92%E1%83%90%E1%83%A0%E1%83%98%E1%83%A2%E1%83%90_bcgbve.jpg",
     "name": "მარგარიტა",
     "ingredients": ["პიცის სოუსი", "მოცარელა", "ჩერი"],
     "price": 15
@@ -114,6 +129,7 @@
   {
     "id": 16,
     "category": "პიცა",
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433850/%E1%83%9E%E1%83%98%E1%83%AA%E1%83%90_%E1%83%95%E1%83%94%E1%83%AF%E1%83%98_krhsjv.jpg",
     "name": "ვეჯი ვეგეტერიანული",
     "ingredients": [
       "პიცის სოუსი",
@@ -130,6 +146,7 @@
     "id": 17,
     "category": "პიცა",
     "name": "ჩიქენ ალფრედო",
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433864/%E1%83%A9%E1%83%98%E1%83%A5%E1%83%94%E1%83%9C_%E1%83%90%E1%83%9A%E1%83%A4%E1%83%A0%E1%83%94%E1%83%93%E1%83%9D_jj4cgg.jpg",
     "ingredients": ["ალფრედოს სოუსი", "მოცარელა", "ქათმის ფილე", "ისპანახი"],
     "price": 19
   },
@@ -137,6 +154,7 @@
     "id": 18,
     "category": "პიცა",
     "name": "ELLAKO",
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433826/ellako_%E1%83%9E%E1%83%98%E1%83%AA%E1%83%90_zu0m9e.jpg",
     "ingredients": ["პიცის სოუსი", "მოცარელა", "ლორი", "ბეკონი"],
     "price": 24
   },
@@ -144,6 +162,7 @@
     "id": 19,
     "category": "პიცა",
     "name": "GABU-ს პიცა",
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433827/Gabu_%E1%83%9E%E1%83%98%E1%83%AA%E1%83%90_dpxf3d.jpg",
     "ingredients": [
       "პიცის სოუსი",
       "მოცარელა",
@@ -158,6 +177,7 @@
     "id": 20,
     "category": "პიცა",
     "name": "ოთხი ყველის პიცა",
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433845/%E1%83%9D%E1%83%97%E1%83%AE%E1%83%98_%E1%83%A7%E1%83%95%E1%83%94%E1%83%9A%E1%83%98%E1%83%A1_%E1%83%9E%E1%83%98%E1%83%AA%E1%83%90_p2tetm.jpg",
     "ingredients": ["ჩედარი", "პარმეზანი", "მოცარელა", "ბლუ ჩიზი"],
     "price": 26
   },
@@ -165,6 +185,7 @@
     "id": 21,
     "category": "პიცა",
     "name": "კარბონარა",
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433850/%E1%83%9E%E1%83%98%E1%83%AA%E1%83%90_%E1%83%99%E1%83%90%E1%83%A0%E1%83%91%E1%83%9D%E1%83%9C%E1%83%90%E1%83%A0%E1%83%90_br0hwe.jpg",
     "ingredients": ["ბეკონი", "ბულგარული", "ჩერი", "ნაღების სოუსი", "მოცარელა"],
     "price": 24
   },
@@ -172,12 +193,14 @@
     "id": 22,
     "category": "პიცა",
     "name": "MIX პიცა",
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433827/Mix_%E1%83%9E%E1%83%98%E1%83%AA%E1%83%90_hopjz3.jpg",
     "ingredients": ["პეპერონი", "ელლაკო", "ჩიქენ ალფრედო", "მარგარიტა"],
     "price": 25
   },
   {
     "id": 23,
     "category": "პიცა",
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433830/%E1%83%94%E1%83%95%E1%83%A0%E1%83%9D%E1%83%9E%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%9E%E1%83%98%E1%83%AA%E1%83%90_jvvvfu.jpg",
     "name": "ევროპული პიცა",
     "ingredients": [
       "ლორი",
@@ -191,6 +214,7 @@
     "price": 21
   },
   {
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433846/%E1%83%9D%E1%83%A0%E1%83%90%E1%83%92%E1%83%A3%E1%83%9A%E1%83%98%E1%83%A1_%E1%83%A4%E1%83%98%E1%83%9A%E1%83%94_xetqh2.jpg",
     "id": 24,
     "category": "ძირითადი კერძი",
     "name": "ორაგულის ფილე",
@@ -202,21 +226,24 @@
     "category": "ძირითადი კერძი",
     "name": "ქათმის ფილე",
     "ingredients": ["ქათამი", "ბოსტნეული", "სოიოს სოუსი", "უნაგი"],
-    "price": 14
+    "price": 14,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433860/%E1%83%A5%E1%83%90%E1%83%97%E1%83%9B%E1%83%98%E1%83%A1_%E1%83%A4%E1%83%98%E1%83%9A%E1%83%94_bzdqte.jpg"
   },
   {
     "id": 26,
     "category": "ძირითადი კერძი",
     "name": "ღორის სტეიკი",
     "ingredients": ["ღორის ხორცი", "პესტოს სოუსი", "ხახვი", "ELLAKO სოუსი"],
-    "price": 22
+    "price": 22,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433862/%E1%83%A6%E1%83%9D%E1%83%A0%E1%83%98%E1%83%A1_%E1%83%A1%E1%83%A2%E1%83%94%E1%83%98%E1%83%99%E1%83%98_y6i6zp.jpg"
   },
   {
     "id": 27,
     "category": "ძირითადი კერძი",
-    "name": "მწვადი",
+    "name": "მწვადი პურში",
     "ingredients": ["ღორის ხორცი", "ხახვი", "ბროწეული", "პური"],
-    "price": 16
+    "price": 16,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433843/%E1%83%9B%E1%83%AC%E1%83%95%E1%83%90%E1%83%93%E1%83%98_%E1%83%9E%E1%83%A3%E1%83%A0%E1%83%A8%E1%83%98_phqkiq.jpg"
   },
   {
     "id": 28,
@@ -229,79 +256,89 @@
       "ტყემალი",
       "წიწაკა"
     ],
-    "price": 27
+    "price": 27,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433826/bbq_%E1%83%9C%E1%83%94%E1%83%99%E1%83%9C%E1%83%94%E1%83%91%E1%83%98_uofnd2.jpg"
   },
   {
     "id": 29,
     "category": "ძირითადი კერძი",
     "name": "ქათმის მწვადი",
     "ingredients": ["ქათმის ფილე", "ბოსტნეული", "პომიდვრის სალსა"],
-    "price": 14
+    "price": 14,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433859/%E1%83%A5%E1%83%90%E1%83%97%E1%83%9B%E1%83%98%E1%83%A1_%E1%83%9B%E1%83%AC%E1%83%95%E1%83%90%E1%83%93%E1%83%98_nxims5.jpg"
   },
   {
     "id": 30,
     "category": "ძირითადი კერძი",
     "name": "ბოსტნეული გრილზე",
     "ingredients": ["სხვადასხვა ბოსტნეული", "ზეთი", "მარილი"],
-    "price": 7
+    "price": 7,
+    "image": "https://bernard.ge/wp-content/uploads/2021/09/grilled_vegetables-e1639261826920.jpg"
   },
   {
     "id": 31,
     "category": "ძირითადი კერძი",
     "name": "ქაბაბის ბურთულები",
     "ingredients": ["ღორის-საქონლის ფარში", "სოუსი", "მწვანილი"],
-    "price": 14
+    "price": 14,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433858/%E1%83%A5%E1%83%90%E1%83%91%E1%83%90%E1%83%91%E1%83%98%E1%83%A1_%E1%83%91%E1%83%A3%E1%83%A0%E1%83%97%E1%83%A3%E1%83%9A%E1%83%94%E1%83%91%E1%83%98_ikasfa.jpg"
   },
   {
     "id": 32,
     "category": "ძირითადი კერძი",
     "name": "Beef by ELLAKO",
     "ingredients": ["საქონლის ხორცი", "პომიდვრის სოუსი", "მწვანილები"],
-    "price": 20
+    "price": 20,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433826/Beef_by_Ellako_lcadbz.jpg"
   },
   {
     "id": 33,
     "category": "ძირითადი კერძი",
     "name": "ქათამი ალფრედოს სოუსით",
     "ingredients": ["ქათმის ხორცი", "სპეციალური სოუსი"],
-    "price": 18
+    "price": 18,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433858/%E1%83%A5%E1%83%90%E1%83%97%E1%83%90%E1%83%9B%E1%83%98%E1%83%A1_%E1%83%90%E1%83%9A%E1%83%A4%E1%83%A0%E1%83%94%E1%83%93%E1%83%9D%E1%83%A1_%E1%83%A1%E1%83%9D%E1%83%A3%E1%83%A1%E1%83%98%E1%83%97_bet4af.jpg"
   },
   {
     "id": 34,
     "category": "ძირითადი კერძი",
     "name": "ოჯახური",
     "ingredients": ["ღორის ხორცი", "კარტოფილი", "ბოსტნეულის მიქსი"],
-    "price": 16
+    "price": 16,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433847/%E1%83%9D%E1%83%AF%E1%83%90%E1%83%AE%E1%83%A3%E1%83%A0%E1%83%98_ialgr0.jpg"
   },
   {
     "id": 35,
     "category": "ვოკი",
     "name": "ლაფშა საქონლის ხორცით",
     "ingredients": [],
-    "price": 15
+    "price": 15,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433832/%E1%83%95%E1%83%9D%E1%83%99%E1%83%98_%E1%83%9A%E1%83%90%E1%83%A4%E1%83%A8%E1%83%98%E1%83%97_fnt9tq.jpg"
   },
   {
     "id": 36,
     "category": "ვოკი",
     "name": "ლაფშა ქათმის ხორცით",
     "ingredients": [],
-    "price": 14
+    "price": 14,
+    "image": "https://sushi24.ge/images/thumbs/0000901_chicken-noodles_510.jpeg"
   },
   {
     "id": 37,
     "category": "ვოკი",
     "name": "ბრინჯი ხორცით და ბოსტნეულით",
     "ingredients": [],
-    "price": 13
+    "price": 13,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433831/%E1%83%95%E1%83%9D%E1%83%99%E1%83%98_%E1%83%91%E1%83%A0%E1%83%98%E1%83%9C%E1%83%AF%E1%83%98%E1%83%97_nl5xaf.jpg"
   },
   {
     "id": 30123123423,
     "category": "ვოკი",
     "name": "ბრინჯი ბოსტნეულით",
     "ingredients": [],
-    "price": 12
+    "price": 12,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433831/%E1%83%95%E1%83%9D%E1%83%99%E1%83%98_%E1%83%91%E1%83%A0%E1%83%98%E1%83%9C%E1%83%AF%E1%83%98%E1%83%97_nl5xaf.jpg"
   },
-
   {
     "id": 38,
     "category": "ბურგერი",
@@ -314,7 +351,8 @@
       "სპეციალური სოუსი",
       "ჩედარი"
     ],
-    "price": 10
+    "price": 10,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433836/%E1%83%99%E1%83%9A%E1%83%90%E1%83%A1%E1%83%98%E1%83%99_%E1%83%91%E1%83%A3%E1%83%A0%E1%83%92%E1%83%94%E1%83%A0%E1%83%98_hv6new.jpg"
   },
   {
     "id": 39,
@@ -328,7 +366,8 @@
       "ყველის სოუსი",
       "ჩედარი"
     ],
-    "price": 12
+    "price": 12,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433837/%E1%83%99%E1%83%9A%E1%83%90%E1%83%A1%E1%83%98%E1%83%99_%E1%83%A9%E1%83%98%E1%83%96%E1%83%91%E1%83%A3%E1%83%A0%E1%83%92%E1%83%94%E1%83%A0%E1%83%98_kmunxv.jpg"
   },
   {
     "id": 40,
@@ -341,7 +380,8 @@
       "მჟავე კიტრი",
       "პომიდორი"
     ],
-    "price": 12
+    "price": 12,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433856/%E1%83%A4%E1%83%98%E1%83%9A%E1%83%90%E1%83%93%E1%83%94%E1%83%9A%E1%83%A4%E1%83%98%E1%83%90_uyj5xq.jpg"
   },
   {
     "id": 41,
@@ -354,7 +394,8 @@
       "სალათის ფოთოლი",
       "სპეციალური სოუსი"
     ],
-    "price": 15
+    "price": 15,
+    "image": "https://hotsale.ge/files/offers/leonardofoodbar/bacon.jpg"
   },
   {
     "id": 42,
@@ -368,21 +409,24 @@
       "ბეკონი",
       "მჟავე კიტრი"
     ],
-    "price": 15
+    "price": 15,
+    "image": "https://dempsters.ca/sites/default/files/styles/recipes_full_467x341_/public/2021-04/121917%20Spicy%20BBQ%20Burger-028_V3_1x1.jpg?itok=NEZFPVIx"
   },
   {
     "id": 43,
     "category": "ბურგერი",
     "name": "Fresh Burger",
     "ingredients": ["ქოლესლოუ", "ხორცი", "ყველის სოუსი", "კიტრი", "ხახვი"],
-    "price": 13
+    "price": 13,
+    "image": "https://d31qjkbvvkyanm.cloudfront.net/images/recipe-images/fresh-herb-cheeseburger-detail-e1184a8e.jpg"
   },
   {
     "id": 44,
     "category": "ბურგერი",
     "name": "Fish Burger",
     "ingredients": ["ორაგული", "კრემ-ყველი", "ქოლესლოუ", "პარმეზანი"],
-    "price": 17
+    "price": 17,
+    "image": "https://www.thedinnerbite.com/wp-content/uploads/2021/04/fish-burger-filet-recipe-img-12.jpg"
   },
   {
     "id": 45,
@@ -397,7 +441,8 @@
       "სალათის ფოთოლი",
       "პომიდორი"
     ],
-    "price": 19
+    "price": 19,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433831/%E1%83%94%E1%83%9A%E1%83%90%E1%83%99%E1%83%9D_%E1%83%A0%E1%83%9D%E1%83%98%E1%83%90%E1%83%9A%E1%83%98_yskrc6.jpg"
   },
   {
     "id": 46,
@@ -411,7 +456,8 @@
       "პომიდორი",
       "ყველის სოუსი"
     ],
-    "price": 19
+    "price": 19,
+    "image": "https://assets.bonappetit.com/photos/5b919cb83d923e31d08fed17/1:1/w_2560%2Cc_limit/basically-burger-1.jpg"
   },
   {
     "id": 47,
@@ -426,7 +472,8 @@
       "კარტოფილი",
       "ჰალაპენიო"
     ],
-    "price": 22
+    "price": 22,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433827/chef_burger_twy4tb.jpg"
   },
   {
     "id": 48,
@@ -439,14 +486,16 @@
       "ხახვი",
       "სალათის ფოთოლი"
     ],
-    "price": 33
+    "price": 33,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433826/Big_Burger_jlirwf.jpg"
   },
   {
     "id": 49,
     "category": "ბურგერი",
     "name": "ქლაბ-სენდვიჩი",
     "ingredients": [],
-    "price": 8.5
+    "price": 8.5,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433862/%E1%83%A5%E1%83%9A%E1%83%90%E1%83%91_%E1%83%A1%E1%83%94%E1%83%9C%E1%83%93%E1%83%95%E1%83%98%E1%83%A9%E1%83%98_zqovyu.jpg"
   },
   {
     "id": 50,
@@ -459,7 +508,8 @@
       "მექსიკური კარტოფილი",
       "სოუსები"
     ],
-    "price": 50
+    "price": 50,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433826/ELako_%E1%83%93%E1%83%90%E1%83%A4%E1%83%90_t8cu8o.jpg"
   },
   {
     "id": 51,
@@ -474,203 +524,232 @@
       "სოუსი",
       "ნაგეთსი"
     ],
-    "price": 90
+    "price": 90,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433836/%E1%83%99%E1%83%90%E1%83%9C%E1%83%AD%E1%83%98_ud41ma.jpg"
   },
   {
     "id": 52,
     "category": "დაფა",
     "name": "Mix დაფა",
     "ingredients": ["ფრი მექსიკური", "ნაგეთსი", "ხახვის რგოლები"],
-    "price": 30
+    "price": 30,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433841/%E1%83%9B%E1%83%98%E1%83%A5%E1%83%A1_%E1%83%93%E1%83%90%E1%83%A4%E1%83%90_ghy27p.jpg"
   },
   {
     "id": 53,
     "category": "დაფა",
     "name": "ნეკნების დაფა",
     "ingredients": ["ნეკნები", "სტეიკი", "ბოსტნეული", "სტრიქსი", "ფრი"],
-    "price": 70
+    "price": 70,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433844/%E1%83%9C%E1%83%94%E1%83%99%E1%83%9C%E1%83%94%E1%83%91%E1%83%98%E1%83%A1_%E1%83%93%E1%83%90%E1%83%A4%E1%83%90_pdbyl1.jpg"
   },
   {
     "id": 54,
     "category": "დესერტი",
     "name": "ნაყინი",
     "ingredients": [],
-    "price": 5
+    "price": 5,
+    "image": "https://www.etaloni.ge/gallery/nakini.jpg"
   },
   {
     "id": 55,
     "category": "დესერტი",
     "name": "კრეპი ბანანით და შოკოლადით",
     "ingredients": [],
-    "price": 8
+    "price": 8,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433838/%E1%83%99%E1%83%A0%E1%83%94%E1%83%9E%E1%83%98_%E1%83%91%E1%83%90%E1%83%9C%E1%83%90%E1%83%9C%E1%83%98%E1%83%97_%E1%83%93%E1%83%90_%E1%83%A8%E1%83%9D%E1%83%99%E1%83%9D%E1%83%9A%E1%83%90%E1%83%93%E1%83%98%E1%83%97_%E1%83%99%E1%83%A0%E1%83%94%E1%83%9E%E1%83%98_%E1%83%9B%E1%83%90%E1%83%A0%E1%83%AC%E1%83%95%E1%83%98%E1%83%A1_%E1%83%AF%E1%83%94%E1%83%9B%E1%83%98%E1%83%97_oaxkta.jpg"
   },
   {
     "id": 56,
     "category": "დესერტი",
     "name": "კრეპი მარწყვის ჯემით",
     "ingredients": [],
-    "price": 8
+    "price": 8,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433838/%E1%83%99%E1%83%A0%E1%83%94%E1%83%9E%E1%83%98_%E1%83%91%E1%83%90%E1%83%9C%E1%83%90%E1%83%9C%E1%83%98%E1%83%97_%E1%83%93%E1%83%90_%E1%83%A8%E1%83%9D%E1%83%99%E1%83%9D%E1%83%9A%E1%83%90%E1%83%93%E1%83%98%E1%83%97_%E1%83%99%E1%83%A0%E1%83%94%E1%83%9E%E1%83%98_%E1%83%9B%E1%83%90%E1%83%A0%E1%83%AC%E1%83%95%E1%83%98%E1%83%A1_%E1%83%AF%E1%83%94%E1%83%9B%E1%83%98%E1%83%97_oaxkta.jpg"
   },
   {
     "id": 57,
     "category": "დესერტი",
     "name": "ბელგიური ვაფლი",
     "ingredients": [],
-    "price": 9
+    "price": 9,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433829/%E1%83%91%E1%83%94%E1%83%9A%E1%83%92%E1%83%98%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%95%E1%83%90%E1%83%A4%E1%83%9A%E1%83%98_oukqqk.jpg"
   },
   {
     "id": 58,
     "category": "დესერტი",
     "name": "ლავა ქეიქი",
     "ingredients": [],
-    "price": 12
+    "price": 12,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433839/%E1%83%9A%E1%83%90%E1%83%95%E1%83%90_%E1%83%A5%E1%83%94%E1%83%98%E1%83%A5%E1%83%98_ztj0br.jpg"
   },
   {
     "id": 59,
     "category": "დესერტი",
     "name": "შემწვარი ნაყინი",
     "ingredients": [],
-    "price": 10
+    "price": 10,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433863/%E1%83%A8%E1%83%94%E1%83%9B%E1%83%AC%E1%83%95%E1%83%90%E1%83%A0%E1%83%98_%E1%83%9C%E1%83%90%E1%83%A7%E1%83%98%E1%83%9C%E1%83%98_hq1ql3.jpg"
   },
   {
     "id": 60,
     "category": "დესერტი",
     "name": "ტირამისუ",
     "ingredients": [],
-    "price": 12
+    "price": 12,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433854/%E1%83%A2%E1%83%98%E1%83%A0%E1%83%90%E1%83%9B%E1%83%98%E1%83%A1%E1%83%A3_facr4n.jpg"
   },
   {
     "id": 61,
     "category": "დესერტი",
     "name": "სეზონური ხილის ასორტი",
     "ingredients": [],
-    "price": 18
+    "price": 18,
+    "image": "https://dyj6gt4964deb.cloudfront.net/images/127840688763864.jpeg"
   },
   {
     "id": 62,
     "category": "სოუსი",
     "name": "ტყემალი",
     "ingredients": [],
-    "price": 2.5
+    "price": 2.5,
+    "image": "https://gemrielia.ge/media/images/axalityemali.jpg"
   },
   {
     "id": 63,
     "category": "სოუსი",
     "name": "სვიტ ჩილი",
     "ingredients": [],
-    "price": 2.5
+    "price": 2.5,
+    "image": "https://www.stefanidis.com.gr/uploads/images/44925/sweet-chili-enlarge.jpg?lm=053a88bb789affd5efcd73fe46ee6039"
   },
   {
     "id": 64,
     "category": "სოუსი",
     "name": "მექსიკური",
     "ingredients": [],
-    "price": 2.5
+    "price": 2.5,
+    "image": "https://fiber.ge/wp-content/uploads/meksikuri-kartofilis-sousi.webp"
   },
   {
     "id": 65,
     "category": "სოუსი",
     "name": "ELLAKO სოუსი",
     "ingredients": [],
-    "price": 2.5
+    "price": 2.5,
+    "image": ""
   },
   {
     "id": 66,
     "category": "სოუსი",
     "name": "კეტჩუპი",
     "ingredients": [],
-    "price": 2.5
+    "price": 2.5,
+    "image": "https://sushi24.ge/images/thumbs/0001944_ketchup_510.jpeg"
   },
   {
     "id": 67,
     "category": "სოუსი",
     "name": "მაიონეზი",
     "ingredients": [],
-    "price": 2.5
+    "price": 2.5,
+    "image": "https://www.pizza24.ge/images/thumbs/0001948_mayonnaise_510.jpeg"
   },
   {
     "id": 68,
     "category": "სნექი",
     "name": "მიწის თხილი",
     "ingredients": [],
-    "price": 5
+    "price": 5,
+    "image": "https://tbiliselebi.ge/files/2024/02/02/9728/mitsistkhili_w_h.jpeg"
   },
   {
     "id": 69,
     "category": "სნექი",
     "name": "ჩიფსი",
     "ingredients": [],
-    "price": 6
+    "price": 6,
+    "image": "https://server4.intermedia.ge/article_images/small/201402/201402182212231092.jpg"
   },
   {
     "id": 70,
     "category": "ხინკალი",
     "name": "ხინკალი (ქალაქური)",
     "ingredients": [],
-    "price": 1.5
+    "price": 1.5,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433865/%E1%83%AE%E1%83%98%E1%83%9C%E1%83%99%E1%83%90%E1%83%9A%E1%83%98_gk7bfd.jpg"
   },
   {
     "id": 71,
     "category": "ხინკალი",
     "name": "ხინკალი (მთიულური)",
     "ingredients": [],
-    "price": 1.5
+    "price": 1.5,
+    "image": "https://gemrielia.ge/media/images/35765731192_46c27dd91d_o.jpg"
   },
   {
     "id": 72,
     "category": "ხინკალი",
     "name": "ხინკალი (მთიულური კოწახურით)",
     "ingredients": [],
-    "price": 1.7
+    "price": 1.7,
+    "image": "https://bernard.ge/wp-content/uploads/2020/08/mtiuluri.jpg"
   },
   {
     "id": 73,
     "category": "ხინკალი",
     "name": "ხინკალი (სამარხვო)",
     "ingredients": [],
-    "price": 1.5
+    "price": 1.5,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433851/%E1%83%A1%E1%83%90%E1%83%9B%E1%83%90%E1%83%A0%E1%83%AE%E1%83%95%E1%83%9D_%E1%83%AE%E1%83%98%E1%83%9C%E1%83%99%E1%83%90%E1%83%9A%E1%83%98_diez7f.jpg"
   },
   {
     "id": 74,
     "category": "აპეტაიზერი",
     "name": "ფრი",
     "ingredients": [],
-    "price": 5
+    "price": 5,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433858/%E1%83%A4%E1%83%A0%E1%83%98_bqcrrp.jpg"
   },
   {
     "id": 75,
     "category": "აპეტაიზერი",
     "name": "მექსიკური კარტოფილი",
     "ingredients": [],
-    "price": 7
+    "price": 7,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433841/%E1%83%9B%E1%83%94%E1%83%A5%E1%83%A1%E1%83%98%E1%83%99%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%99%E1%83%90%E1%83%A0%E1%83%A2%E1%83%9D%E1%83%A4%E1%83%98%E1%83%9A%E1%83%98_v0k6vs.jpg"
   },
   {
     "id": 76,
     "category": "აპეტაიზერი",
     "name": "ხახვის რგოლები",
     "ingredients": [],
-    "price": 8
+    "price": 8,
+    "image": "https://marao.ge/media/_share/fb/images/2019_new/hobi-kulinaria-xelsaqme/kulinaria/xaxvisrgolebi_1200x630_50x50.jpg"
   },
   {
     "id": 77,
     "category": "აპეტაიზერი",
     "name": "ქათმის ნაგეტსი",
     "ingredients": [],
-    "price": 7
+    "price": 7,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433859/%E1%83%A5%E1%83%90%E1%83%97%E1%83%9B%E1%83%98%E1%83%A1_%E1%83%9C%E1%83%90%E1%83%92%E1%83%94%E1%83%97%E1%83%A1%E1%83%98_ivxmw8.jpg"
   },
   {
     "id": 78,
     "category": "აპეტაიზერი",
     "name": "სტრიფსები",
     "ingredients": [],
-    "price": 10
+    "price": 10,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433854/%E1%83%A1%E1%83%A2%E1%83%A0%E1%83%98%E1%83%A4%E1%83%A1%E1%83%94%E1%83%91%E1%83%98_odxetl.jpg"
   },
   {
     "id": 79,
     "category": "სალათები",
     "name": "ბერძნული",
     "ingredients": ["ბოსტნეულის მიქსი", "ზეთისხილი", "ფეტა"],
-    "price": 9
+    "price": 9,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433830/%E1%83%91%E1%83%94%E1%83%A0%E1%83%AB%E1%83%9C%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%A1%E1%83%90%E1%83%9A%E1%83%90%E1%83%97%E1%83%98_vpdatk.jpg"
   },
   {
     "id": 80,
@@ -683,21 +762,24 @@
       "სოუსი",
       "კრუტონი"
     ],
-    "price": 14
+    "price": 14,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433864/%E1%83%AA%E1%83%94%E1%83%96%E1%83%90%E1%83%A0%E1%83%98_rc5vhp.jpg"
   },
   {
     "id": 81,
     "category": "სალათები",
     "name": "ორაგულის სალათი",
     "ingredients": ["ციტრუსის და ბოსტნეულის მიქსი", "ორაგული"],
-    "price": 16
+    "price": 16,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433846/%E1%83%9D%E1%83%A0%E1%83%90%E1%83%92%E1%83%A3%E1%83%9A%E1%83%98%E1%83%A1_%E1%83%A1%E1%83%90%E1%83%9A%E1%83%90%E1%83%97%E1%83%98_uchzvu.jpg"
   },
   {
     "id": 82,
     "category": "სალათები",
     "name": "სტეიკ-სალათი",
     "ingredients": ["საქონლის სუკი", "ბოსტნეულის მიქსი", "დიჟონის მდოგვი"],
-    "price": 15
+    "price": 15,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433853/%E1%83%A1%E1%83%A2%E1%83%94%E1%83%98%E1%83%99_%E1%83%A1%E1%83%90%E1%83%9A%E1%83%90%E1%83%97%E1%83%98_nujjrx.jpg"
   },
   {
     "id": 83,
@@ -710,41 +792,47 @@
       "ფილე",
       "სუხარი"
     ],
-    "price": 15
+    "price": 15,
+    "image": ""
   },
   {
     "id": 84,
     "category": "სალათები",
     "name": "მჟავის ასორტი",
     "ingredients": [],
-    "price": 8
+    "price": 8,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433842/%E1%83%9B%E1%83%9F%E1%83%90%E1%83%95%E1%83%98%E1%83%A1_%E1%83%90%E1%83%A1%E1%83%9D%E1%83%A0%E1%83%A2%E1%83%98_qnfdcc.jpg"
   },
   {
     "id": 85,
     "category": "სალათები",
     "name": "იმერული ყველი",
     "ingredients": [],
-    "price": 5
+    "price": 5,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433834/%E1%83%98%E1%83%9B%E1%83%94%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%A7%E1%83%95%E1%83%94%E1%83%9A%E1%83%98_kpsalh.jpg"
   },
   {
     "id": 802132143,
     "category": "წვნიანი",
     "name": "საქონლის ხორცის წვნიანი",
     "ingredients": [],
-    "price": 10
+    "price": 10,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433853/%E1%83%A1%E1%83%90%E1%83%A5%E1%83%9D%E1%83%9C%E1%83%9A%E1%83%98%E1%83%A1_%E1%83%AC%E1%83%95%E1%83%9C%E1%83%98%E1%83%90%E1%83%9C%E1%83%98_z5rshj.jpg"
   },
   {
     "id": 86,
     "category": "წვნიანი",
     "name": "ქათმის წვნიანი ლაფშათი",
     "ingredients": [],
-    "price": 10
+    "price": 10,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433861/%E1%83%A5%E1%83%90%E1%83%97%E1%83%9B%E1%83%98%E1%83%A1_%E1%83%AC%E1%83%95%E1%83%9C%E1%83%98%E1%83%90%E1%83%9C%E1%83%98_ob54jk.jpg"
   },
   {
     "id": 87,
     "category": "წვნიანი",
     "name": "ხინკლის წვნიანი",
     "ingredients": [],
-    "price": 10
+    "price": 10,
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433865/%E1%83%AE%E1%83%98%E1%83%9C%E1%83%99%E1%83%9A%E1%83%98%E1%83%A1_%E1%83%AC%E1%83%95%E1%83%9C%E1%83%98%E1%83%90%E1%83%9C%E1%83%98_r9gli3.jpg"
   }
 ]
