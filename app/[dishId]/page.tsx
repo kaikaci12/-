@@ -5,7 +5,7 @@ import { DishTypes } from "@/types";
 import Image from "next/image";
 import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
-
+//commit
 function Dish() {
   const params = useParams(); // Unwrap params properly
   const dishId = params?.dishId as string; // Ensure it's a string
