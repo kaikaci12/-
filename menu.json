@@ -3,47 +3,55 @@
     "id": 1,
     "category": "ცომეული",
     "name": "პურის კალათა (თეთრი ბაგეტი)",
+    "ingredients": [],
     "price": 4
   },
   {
     "id": 2,
     "category": "ცომეული",
     "name": "იმერული ხაჭაპური 4 ნაჭერი",
+    "ingredients": [],
     "price": 8
   },
   {
     "id": 3,
     "category": "ცომეული",
     "name": "იმერული ხაჭაპური 6 ნაჭერი",
+    "ingredients": [],
     "price": 12
   },
   {
     "id": 4,
     "category": "ცომეული",
     "name": "მეგრული ხაჭაპური",
+    "ingredients": [],
     "price": 15
   },
   {
     "id": 5,
     "category": "ცომეული",
     "name": "აჭარული ხაჭაპური",
+    "ingredients": [],
     "price": 15
   },
   {
     "id": 6,
     "category": "ცომეული",
     "name": "ლობიანი 6 ნაჭერი",
+    "ingredients": [],
     "price": 8
   },
   {
     "id": 7,
     "category": "ცომეული",
     "name": "აჭარული ლობიანი",
+    "ingredients": [],
     "price": 12
   },
   {
     "id": 8,
     "category": "ცომეული",
+    "ingredients": [],
     "name": "ლობიანი ლორით",
     "price": 12
   },
@@ -51,6 +59,7 @@
     "id": 9,
     "category": "ცომეული",
     "name": "მჭადის ბურთულები",
+    "ingredients": [],
     "price": 4
   },
   {
@@ -286,7 +295,7 @@
     "price": 13
   },
   {
-    "id": 38,
+    "id": 30123123423,
     "category": "ვოკი",
     "name": "ბრინჯი ბოსტნეულით",
     "ingredients": [],
@@ -718,7 +727,7 @@
     "price": 5
   },
   {
-    "id": 86,
+    "id": 802132143,
     "category": "წვნიანი",
     "name": "საქონლის ხორცის წვნიანი",
     "ingredients": [],
@@ -732,7 +741,7 @@
     "price": 10
   },
   {
-    "id": 86,
+    "id": 87,
     "category": "წვნიანი",
     "name": "ხინკლის წვნიანი",
     "ingredients": [],
