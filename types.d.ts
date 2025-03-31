@@ -4,4 +4,5 @@ export type DishTypes = {
   ingredients: string[];
   price: number;
   category: string;
+  image?: string;
 };
