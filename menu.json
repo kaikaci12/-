@@ -60,7 +60,7 @@
     "category": "ცომეული",
     "ingredients": [],
     "name": "ლობიანი ლორით",
-    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433833/%E1%83%98%E1%83%9B%E1%83%94%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%9A%E1%83%9D%E1%83%91%E1%83%98%E1%83%90%E1%83%9C%E1%83%98_syndf9.jpg0",
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743433833/%E1%83%98%E1%83%9B%E1%83%94%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%9A%E1%83%9D%E1%83%91%E1%83%98%E1%83%90%E1%83%9C%E1%83%98_syndf9.jpg",
     "price": 12
   },
   {
@@ -418,7 +418,7 @@
     "name": "Fresh Burger",
     "ingredients": ["ქოლესლოუ", "ხორცი", "ყველის სოუსი", "კიტრი", "ხახვი"],
     "price": 13,
-    "image": "https://d31qjkbvvkyanm.cloudfront.net/images/recipe-images/fresh-herb-cheeseburger-detail-e1184a8e.jpg"
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743538346/%E1%83%A4%E1%83%A0%E1%83%94%E1%83%A8_%E1%83%91%E1%83%A3%E1%83%A0%E1%83%92%E1%83%94%E1%83%A0_ef1bmc.jpg"
   },
   {
     "id": 44,
@@ -669,7 +669,7 @@
     "name": "ჩიფსი",
     "ingredients": [],
     "price": 6,
-    "image": "https://server4.intermedia.ge/article_images/small/201402/201402182212231092.jpg"
+    "image": "https://res.cloudinary.com/dedukqhbm/image/upload/v1743590470/%E1%83%A9%E1%83%98%E1%83%A4%E1%83%A1%E1%83%98_tr3l4x.jpg"
   },
   {
     "id": 70,
