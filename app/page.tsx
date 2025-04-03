@@ -115,10 +115,8 @@ export default function Home() {
             </h2>
             <div className="flex justify-between mt-2">
               <p className=" text-lg font-bold text-black">{item.price}₾</p>
-              <div className="  justify-end">
-                <span className="inline-block bg-gray-200 text-gray-700 px-3 py-1 text-xs rounded-full">
-                  {item.category}
-                </span>
+              <div className="flex  bg-gray-200 text-gray-700 px-3 py-1 text-xs rounded-full">
+                <span className=" text-center">{item.category}</span>
               </div>
             </div>
           </div>

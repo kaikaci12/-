@@ -66,5 +66,10 @@ export const categories = [
     name: "სნექი",
     src: "/popcorn-svgrepo-com.svg",
     iconColor: "#A52A2A",
-  }, // Brown for "Snack"
+  },
+  {
+    id: 14,
+    name: "სოუსი",
+    src: "/ketchup-svgrepo-com.svg",
+  },
 ];
