@@ -114,44 +114,37 @@ function Dish() {
           <h2 className="text-2xl font-extrabold text-gray-900 mb-6">
             შენ ასევე შეიძლება მოგწონდეს
           </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
+          <div className=" mt-4 grid grid-cols-2 gap-4">
             {MenuData.filter(
               (dish) =>
                 dish.category === dishData.category && dish.id !== dishData.id
             ).map((relatedDish) => (
               <div
-                key={relatedDish.id}
                 onClick={() => router.push(`/${relatedDish.id}`)}
-                className="bg-white rounded-xl shadow-lg cursor-pointer overflow-hidden hover:shadow-2xl transition-transform duration-300 hover:scale-105"
+                key={relatedDish.id}
+                className="bg-white cursor-pointer p-3 rounded-lg shadow-md"
               >
-                {/* Dish Image */}
-                <div className="relative h-32 sm:h-40 rounded-t-xl overflow-hidden">
-                  {relatedDish.image ? (
-                    <Image
-                      src={relatedDish.image}
-                      alt={relatedDish.name}
-                      fill
-                      className="object-cover"
-                    />
-                  ) : (
-                    <div className="bg-gray-200 h-full flex items-center justify-center">
-                      <span className="text-gray-500 text-sm">
-                        No Image Available
-                      </span>
-                    </div>
-                  )}
+                {/* Image */}
+                <div className="relative w-full h-32 rounded-lg overflow-hidden">
+                  <Image
+                    src={relatedDish.image || "/placeholder-image.jpg"}
+                    alt={relatedDish.name}
+                    fill
+                    className="object-cover"
+                  />
                 </div>
 
-                {/* Dish Details */}
-                <div className="p-4">
-                  <h3 className="text-lg font-semibold text-gray-800 tracking-wide">
-                    {relatedDish.name}
-                  </h3>
-                  <div className="mt-3 flex justify-between items-center">
-                    <span className="bg-amber-100 text-amber-800 px-4 py-1 rounded-full text-base font-semibold">
-                      {relatedDish.price} ₾
-                    </span>
-                    <span className="text-xs uppercase bg-gray-100 text-gray-600 px-3 py-1 rounded-full font-medium">
+                {/* Category Tag */}
+
+                <h2 className="mt-1 text-sm font-semibold text-gray-800">
+                  {relatedDish.name}
+                </h2>
+                <div className="flex justify-between mt-2">
+                  <p className=" text-lg font-bold text-black">
+                    {relatedDish.price}₾
+                  </p>
+                  <div className="  justify-end">
+                    <span className="inline-block bg-gray-200 text-gray-700 px-3 py-1 text-xs rounded-full">
                       {relatedDish.category}
                     </span>
                   </div>

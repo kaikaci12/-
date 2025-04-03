@@ -34,12 +34,12 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-[#e8c1a0] pb-4">
-      <header className=" justify-between bg-[#ebb92d] shadow-sm sticky top-0 z-10">
+      <header className="  bg-[#ebb92d] shadow-sm sticky top-0 z-10">
         <div className=" container mx-auto px-4 py-3">
           <div className=" w-full flex items-center ">
             {/* Logo */}
-            <div className=" w-full flex items-center justify-between ">
-              <div className="gap-4 flex items-center justify-between">
+            <div className=" w-full flex items-center gap-15 ">
+              <div className="gap-4 flex items-center">
                 <div className="relative w-10 h-10">
                   <Image
                     alt="restaurant logo"
@@ -53,7 +53,7 @@ export default function Home() {
               </div>
 
               <div className="">
-                <div className="relative">
+                <div className="relative ">
                   <input
                     type="text"
                     placeholder="ძიება..."

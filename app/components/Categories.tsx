@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import { categories } from "../constants/categories";
 
@@ -8,16 +8,24 @@ interface CategoryProps {
 }
 
 function Categories({ activeCategory, setActiveCategory }: CategoryProps) {
+  useEffect(() => {
+    console.log("Active category:", activeCategory);
+    if (!activeCategory) {
+      setActiveCategory("ყველა");
+    }
+  }, [activeCategory, setActiveCategory]);
+
   return (
-    <div className="w-full border-b overflow-x-scroll overflow-hidden bg-[#F5E6DA]">
+    <div className="w-full border-b overflow-x-scroll bg-[#F5E6DA]">
       <div className="flex justify-start space-x-8 px-6 py-3 items-center">
         {categories.map((cat) => {
-          const isActive = activeCategory === cat.name.toUpperCase();
+          const isActive = activeCategory === cat.name; // Direct comparison
+
           return (
             <div
               key={cat.id}
               className="flex flex-col items-center cursor-pointer"
-              onClick={() => setActiveCategory(cat.name.toUpperCase())}
+              onClick={() => setActiveCategory(cat.name)}
             >
               <Image
                 src={cat.src}
