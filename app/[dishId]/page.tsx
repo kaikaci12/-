@@ -5,12 +5,13 @@ import { DishTypes } from "@/types";
 import Image from "next/image";
 import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
-//commit
+import { IoMdArrowBack } from "react-icons/io";
 function Dish() {
-  const params = useParams(); // Unwrap params properly
-  const dishId = params?.dishId as string; // Ensure it's a string
+  const params = useParams();
+  const dishId = params?.dishId as string;
   const [dishData, setDishData] = useState<DishTypes | null>(null);
   const router = useRouter();
+
   useEffect(() => {
     if (dishId) {
       const foundDish = MenuData.find((dish) => dish.id === parseInt(dishId));
@@ -20,7 +21,7 @@ function Dish() {
 
   if (!dishData) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
+      <div className="min-h-screen flex items-center justify-center bg-[#F5E6DA]">
         <div className="text-center">
           <h1 className="text-2xl font-bold text-gray-800">Dish not found</h1>
           <p className="text-gray-600 mt-2">
@@ -32,48 +33,24 @@ function Dish() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-4xl mx-auto">
+    <div className="min-h-screen bg-[#F5E6DA] py-6 px-4">
+      <div className="max-w-3xl mx-auto">
         {/* Breadcrumb */}
-        <nav className="flex mb-8" aria-label="Breadcrumb">
-          <ol className="inline-flex items-center space-x-1 md:space-x-3">
-            <li className="inline-flex items-center">
-              <Link
-                href="/"
-                className="inline-flex items-center text-sm font-medium text-gray-700 hover:text-amber-600"
-              >
-                Menu
-              </Link>
-            </li>
-            <li>
-              <div className="flex items-center">
-                <svg
-                  className="w-3 h-3 text-gray-400 mx-1"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 6 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="m1 9 4-4-4-4"
-                  />
-                </svg>
-                <span className="ml-1 text-sm font-medium text-gray-500 md:ml-2">
-                  {dishData.category}
-                </span>
-              </div>
-            </li>
-          </ol>
+        <nav className="flex mb-6 text-gray-700 text-sm">
+          <Link
+            href="/"
+            className="hover:text-gray-900 flex gap-2 items-center"
+          >
+            <IoMdArrowBack />
+            მენიუ
+          </Link>
+          <span className="mx-2">/</span>
+          <span className="text-gray-500">{dishData.category}</span>
         </nav>
 
-        {/* Dish Content */}
-        <div className="bg-white rounded-xl shadow-md overflow-hidden">
-          {/* Image */}
-          <div className="relative h-96 w-full">
+        {/* Dish Card */}
+        <div className="bg-white rounded-lg shadow-md overflow-hidden">
+          <div className="relative h-56 sm:h-72 w-full">
             {dishData.image ? (
               <Image
                 src={dishData.image}
@@ -89,17 +66,15 @@ function Dish() {
             )}
           </div>
 
-          {/* Dish Info */}
-          <div className="p-6 md:p-8">
-            <div className="flex justify-between items-start">
-              <div className="bg-amber-100 text-amber-800 px-4 py-2 rounded-full text-xl font-bold">
+          <div className="p-6">
+            <h1 className="text-2xl font-bold text-gray-900">
+              {dishData.name}
+            </h1>
+            <div className="mt-3 flex justify-between items-center">
+              <span className="bg-amber-100 text-amber-800 px-4 py-1 rounded-full text-lg font-bold">
                 {dishData.price} ₾
-              </div>
-            </div>
-
-            {/* Category */}
-            <div className="mt-4">
-              <span className="inline-block bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm font-medium">
+              </span>
+              <span className="text-sm bg-gray-100 px-3 py-1 rounded-full">
                 {dishData.category}
               </span>
             </div>
@@ -112,7 +87,7 @@ function Dish() {
                 </h2>
                 <ul className="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-2">
                   {dishData.ingredients.map((ingredient, index) => (
-                    <li key={index} className="flex items-center">
+                    <li key={index} className="flex items-center text-gray-700">
                       <svg
                         className="h-5 w-5 text-amber-500 mr-2"
                         fill="none"
@@ -126,7 +101,7 @@ function Dish() {
                           d="M5 13l4 4L19 7"
                         />
                       </svg>
-                      <span className="text-gray-700">{ingredient}</span>
+                      {ingredient}
                     </li>
                   ))}
                 </ul>
@@ -135,43 +110,51 @@ function Dish() {
           </div>
         </div>
 
-        {/* Recommended Dishes Section */}
         <div className="mt-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">
+          <h2 className="text-2xl font-extrabold text-gray-900 mb-6">
             შენ ასევე შეიძლება მოგწონდეს
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
             {MenuData.filter(
               (dish) =>
                 dish.category === dishData.category && dish.id !== dishData.id
             ).map((relatedDish) => (
               <div
-                onClick={() => router.push(`${relatedDish.id}`)}
                 key={relatedDish.id}
-                className="bg-white rounded-lg  cursor-pointer shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+                onClick={() => router.push(`/${relatedDish.id}`)}
+                className="bg-white rounded-xl shadow-lg cursor-pointer overflow-hidden hover:shadow-2xl transition-transform duration-300 hover:scale-105"
               >
-                <div className=" relative h-96">
+                {/* Dish Image */}
+                <div className="relative h-32 sm:h-40 rounded-t-xl overflow-hidden">
                   {relatedDish.image ? (
                     <Image
                       src={relatedDish.image}
                       alt={relatedDish.name}
                       fill
-                      priority
-                      className="object-cover "
+                      className="object-cover"
                     />
                   ) : (
                     <div className="bg-gray-200 h-full flex items-center justify-center">
-                      <span className="text-gray-500">No image</span>
+                      <span className="text-gray-500 text-sm">
+                        No Image Available
+                      </span>
                     </div>
                   )}
                 </div>
+
+                {/* Dish Details */}
                 <div className="p-4">
-                  <h3 className="font-medium text-gray-900">
+                  <h3 className="text-lg font-semibold text-gray-800 tracking-wide">
                     {relatedDish.name}
                   </h3>
-                  <p className="mt-1 text-amber-600 font-bold">
-                    {relatedDish.price} ₾
-                  </p>
+                  <div className="mt-3 flex justify-between items-center">
+                    <span className="bg-amber-100 text-amber-800 px-4 py-1 rounded-full text-base font-semibold">
+                      {relatedDish.price} ₾
+                    </span>
+                    <span className="text-xs uppercase bg-gray-100 text-gray-600 px-3 py-1 rounded-full font-medium">
+                      {relatedDish.category}
+                    </span>
+                  </div>
                 </div>
               </div>
             ))}
