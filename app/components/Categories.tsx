@@ -16,7 +16,7 @@ function Categories({ activeCategory, setActiveCategory }: CategoryProps) {
   }, [activeCategory, setActiveCategory]);
 
   return (
-    <div className="w-full border-b overflow-x-scroll bg-[#F5E6DA]">
+    <div className="w-full border-b overflow-x-scroll bg-[#F5E6DA] px-1">
       <div className="flex justify-start space-x-8 px-6 py-3 items-center">
         {categories.map((cat) => {
           const isActive = activeCategory === cat.name; // Direct comparison

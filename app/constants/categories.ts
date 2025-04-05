@@ -72,4 +72,9 @@ export const categories = [
     name: "სოუსი",
     src: "/ketchup-svgrepo-com.svg",
   },
+  {
+    id: 15,
+    name: "დაფა",
+    src: "/cutting-board-2-svgrepo-com.svg",
+  },
 ];
